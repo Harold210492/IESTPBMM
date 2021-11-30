@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>I.E.S.T.P. "BUENAVENTURA MESTANZA MORI"</title>
+	<meta name="description" content="Free Responsive Html5 Css3 Templates | Zerotheme.com">
+	<meta name="author" content="www.zerotheme.com">
+	
+    <!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+	================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsiveslides.css">
+	
+	<!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<!-- Owl Carousel Assets -->
+    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+    <!-- <link href="owl-carousel/owl.theme.css" rel="stylesheet"> -->
+	
+	<link rel="stylesheet" href="css/menu.css">
+	<script src="js/jquery183.min.js"></script>
+	<script src="js/script.js"></script>
+	
+	<script src="js/jquery-latest.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+    <script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+		  // Slideshow 
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function () {
+			  $('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+			  $('.events').append("<li>after event fired.</li>");
+			}
+		  });
+		});
+	</script>
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/Items/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body class="home-page">
+	<div class="wrap-body">
+		<header>
+			<div class="top-bar">
+				<div class="wrap-top zerogrid">
+					<div class="row">
+						<div class="col-2-3">
+							<ul class="list-inline">
+								<li class="mail"><span><i class="fa fa-envelope"></i><a href="mailto:iestpbmm@gmail.com?Subject=CONSULTA%20SOBRE%20MATRICULAS%20DE LAS%20CARRERAS"> iestpbmm@gmail.com</span></li></a>
+								<li class="phone"><span><i class="fa fa-phone"><a href="tel:+51042556362"></i>(+51) 
+								042-556362 </span></li></a>
+								<li class="clock"><span><i class="fa fa-clock-o"></i>Lunes - Domingo | 8:00 - 17:00</span></li>
+							</ul>
+						</div>
+						<div class="col-1-3">
+						  <ul class="list-inline top-social">
+								<li><a href="https://www.facebook.com/BMM.peru "target="_blank" ><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.instagram.com/iestpbmm/?hl=es"target="_blank" ><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://twitter.com/IesMestanza"target="_blank"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.youtube.com/channel/UCeF8JKM4LPB-HkWbTrAC96g"target="_blank"><i class="fa fa-youtube"></i></a></li>
+								
+						  </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-logo">
+				<a href="index.html"><img src="images/logo.png"></a>
+			</div>
+			<div id='cssmenu' >
+				<ul>
+				   <li class="active"><a href='index.html'><span>IESTP BMM</span></a></li>
+					<li><a href='nosotros.html'><span>NOSOTROS</span></a></li>
+				   <li><a href="carreras.html">CARRERAS</a>
+					<ul>
+						<li><a href="cont.html">CONTABILIDAD</a></li>
+						<li><a href="comp.html">COMPUTACION E INFORMATICA</a></li>
+						<li><a href="seceje.html">SECRETARIADO EJECUTIVO BILINGUE</a></li>
+						<li><a href="admban.html">ADMINISTRACION BANCARIA</a></li>
+						<li><a href="admemp.html">ADMINISTRACION DE EMPRESAS</a></li>
+						<li><a href="admneg.html">ADMINISTRACION DE NEGOCIOS INTERNACIONALES</a></li></ul>
+				   <li><a href='eventos.html'><span>EVENTOS</span></a></li>
+				   
+				   <li class='last'><a href='contact.html'><span>CONTACTANOS</span></a></li>
+				</ul>
+			</div>
+			<div class="slider">
+				<!-- Slideshow -->
+				<div class="callbacks_container">
+					<ul class="rslides" id="slider">
+						<li>
+							<img src="images/slideshow-image1.jpg" alt="">
+							<div class="caption">
+								<h1>ESTABLECER UNA META ES EL PUNTO DE PARTIDA DE TODO LOGRO</h1>
+								<span>La educación no crea al ser humano, le ayuda a crearse a sí mismo <br>Hay una fuerza motriz más poderosa que el vapor, la electricidad y la energía atómica: la voluntad.</span>
+							</div>
+						</li>
+						<li>
+							<img src="images/slideshow-image2.jpg" alt="">
+							<div class="caption">
+								<h1>ESFUÉRZATE NO PARA SER UN ÉXITO, SINO PARA SER VALIOSO</h1>
+								<span>La mejor forma de predecir el futuro es crearlo, <br> Las limitaciones viven solo en nuestras mentes. Pero si usamos nuestra imaginación, nuestras posibilidades se vuelven ilimitadas.</span>
+							</div>
+						</li>
+						<li>
+							<img src="images/slideshow-image3.jpg" alt="">
+							<div class="caption">
+								<h1>“CAMBIA TUS PENSAMIENTOS Y CAMBIAS TU MUNDO”</h1>
+								<span >No esperes hasta que todo sea perfecto. Nunca estará bien. Siempre habrá desafíos y obstáculos. ¿Y qué? Comienza ahora. Con cada paso que dé, será más fuerte, más hábil, más seguro y más valioso</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+		  </div>
+		</header>
+		<!--////////////////////////////////////Container-->
+		<section id="container">
+			<div class="wrap-container">
+				<!-----------------content-box-1-------------------->
+				<section class="content-box box-1">
+					<div class="zerogrid">
+						<div class="row wrap-box"><!--Start Box-->
+							<div class="header">
+								<div class="wrapper">
+									<h1>CARRERAS</h1>
+<hr class="line">
+									<div class="intro">Escoge la carrera que mas te agrade.</div>
+							  </div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="box-item">
+										<img src="images/3.jpg">
+										<h2>CONTABILIDAD</h2>
+										<p>Serás un profesional en Contabilidad que interprete, determine y resuelva el trabajo contable de una empresa.</p>
+										<a href="cont.html">Leer Más</a>
+									</div>
+								</div>
+							</div>
+						  <div class="col-1-3">
+							  <div class="wrap-col">
+									<div class="box-item">
+										<img src="images/1.jpg">
+										<h2>COMPUTACIÓN E INFÓRMATICA</h2>
+										<p>Serás un especialista en la Computación e Informática que desarrolle soluciones de software en el mundo de TI</p>
+										<a href="comp.html">Leer Más</a>
+									</div>
+							</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="box-item">
+										<img src="images/4.jpg">
+										<h2>SECRETARIADO EJECUTIVO BILINGUE</h2>
+										<p>Serás un profesional altamente calificado para ejecutar y coordinar las actividades administrativas de la oficina.</p>
+										<a href="seceje.html">Leer Más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="box-item">
+										<img src="images/6.jpg">
+										<h2>ADMINISTRACIÓN BANCARIA</h2>
+										<p>Serás un profesional en Administración Bancaria capaz de gestionar operaciones financiaras privadas.</p>
+										<a href="admban.html">Leer Más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="box-item">
+										<img src="images/2.jpg">
+										<h2>ADMINISTRACIÓN DE EMPRESAS</h2>
+										<p>Serás un profesional en Administración de Empresas que gestione con liderazgo los procesos internos de la empresa.</p>
+										<a href="admemp.html">Leer Más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-1-3">
+								<div class="wrap-col">
+									<div class="box-item">
+										<img src="images/5.jpg">
+										<h2>ADMINISTRACIÓN DE NEGOCIOS INTERNACIONALES</h2>
+										<p>Serás un profesional que gestione la compra y venta de productos y servicios con el exterior.</p>
+										<a href="admneg.html">Leer Más</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-2-------------------->
+				<section class="content-box boxstyle-1 box-2">
+					<div class="zerogrid">
+						<div class="row wrap-box"><!--Start Box-->
+							<div class="box-item">
+								<blockquote><p>El Instituto de Educación Superior Tecnológico Privado “BUENAVENTURA MESTANZA MORÏ”, nace para transformar la Educación de esta parte del Perú, brindando una calidad educativa desde la clasificación del Personal Docente, Tecnología, Mobiliario e Infraestructura.</p></blockquote>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<!-----------------content-box-3-------------------->
+				<section class="content-box boxstyle-2 box-3">
+					<div class="zerogrid">
+						<div class="row wrap-box"><!--Start Box-->
+							<div class="header">
+								<div class="wrapper">
+								<h2>EVENTOS</h2>
+								<hr class="line">
+									<div class="intro">ULTIMOS EVENTOS</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-1-3">
+									<div class="wrap-col">
+										<div class="box-item">
+											<div class="zoom-container">
+												<img src="images/evento1.jpg" />
+											</div>
+											<div class="box-item-content">
+												<h4>BIENVENIDO AL IESTP BMM</h4>
+												<p>La IES. BUENAVANTURA MESTANZA MORI, les da la cordial bienvenida a esta su casa de estudios Superiores, y les invita a ser participes de todas nuestras actividades.</p>
+												<a href="eventos.html">Leer Más</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-1-3">
+									<div class="wrap-col">
+										<div class="box-item">
+											<div class="zoom-container">
+												<img src="images/evento2.jpg" />
+											</div>
+											<div class="box-item-content">
+												<h4>NUEVO CONVENIO UCV</h4>
+												<p>Nuevo convenio de cooperación entre la Universidad César Vallejo y IESTP Buenaventura Mestanza Mori, Abren las oportunidades para la comunidad estudiantil.</p>
+												<a href="eventos.html">Leer Más</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-1-3">
+									<div class="wrap-col">
+										<div class="box-item">
+											<div class="zoom-container">
+												<img src="images/evento3.jpg" />
+											</div>
+											<div class="box-item-content">
+												<h4>PREPARATE PARA EL EXÁMEN</h4>
+												<p>Chicos! Se nos acerca el gran día, de ponerle mucha actitud en este nuevo año, que vamos a esforzarnos juntos para tener mas y mejores profesionales cada dia!</p>
+												<a href="eventos.html">Leer Más</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+		<!--////////////////////////////////////Footer-->
+		<footer>
+			<div class="top-footer">
+				<div id="owl-brand" class="owl-carousel">
+					<div class="item">
+						<a href="http://www.minedu.gob.pe/p/ministerio-normatividad.html"><img src="images/15.jpg" /></a>
+					</div>
+					<div class="item">
+						<a href="http://escale.minedu.gob.pe/"><img src="images/16.jpg" /></a>
+					</div>
+					<div class="item">
+						<a href="https://www.dresanmartin.gob.pe/"><img src="images/17.jpg" /></a>
+					</div>
+					<div class="item">
+						<a href="http://www.ugelrioja306.gob.pe/"><img src="images/18.jpg" /></a>
+					</div>
+					<div class="item">
+						<a href="http://siagie.minedu.gob.pe/inicio/"><img src="images/19.jpg" /></a>
+					</div>
+					<div class="item">
+						<a href="http://www.nuevacajamarca.gob.pe/"><img src="images/20.jpg" /></a>
+					</div>
+					<div class="item">
+						<a href="http://demo.facturaciondigital.com.pe/"><img src="images/21.jpg" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="zerogrid wrap-footer">
+				<div class="row">
+					<div class="col-1-4 col-footer-1">
+						<div class="wrap-col">
+							<h3 class="widget-title">I.E.S.T.P” BUENAVENTURA MESTANZA MORÍ”</h3>
+							<p>El Instituto de Educación Superior Tecnológico Privado “BUENAVENTURA MESTANZA MORÏ”, nace para transformar la Educación de esta parte del Perú, brindando una calidad educativa desde la clasificación del Personal Docente, Tecnología, Mobiliario e Infraestructura.</p>
+						</div>
+					</div>
+					<div class="col-1-4 col-footer-2">
+						<div class="wrap-col">
+							<h3 class="widget-title">EVENTOS</h3>
+							<ul>
+								<li><a href="eventos.html">BIENVENIDO AL IESTP BMM</a></li>
+								<li><a href="eventos.html">NUEVO CONVENIO UCV</a></li>
+								<li><a href="eventos.html">PREPARATE PARA EL EXAMEN</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-1-4 col-footer-3">
+						<div class="wrap-col">
+							<h3 class="widget-title">CARRERAS</h3>
+							<a href="cont.html">Contabilidad</a>
+							<a href="comp.html">Computación e Informática</a>
+							<a href="seceje.html">Secretariado Ejecutivo Bilingue</a>
+							<a href="admban.html">Administración Bancaria</a>
+							<a href="admemp.html">Administración de Empresas</a>
+							<a href="admneg.html">Administración de Negocios Internacionales</a>
+
+						</div>
+					</div>
+					<div class="col-1-4 col-footer-4">
+						<div class="wrap-col">
+							<h3 class="widget-title">Suscribete</h3>
+							<p>Nunca te pierdas ninguna publicación publicada en nuestro sitio. Suscríbase ahora a nuestro boletín de noticias diario.</p>
+							<p>Correo Electronico:</p>
+							<form action="#" method="post">
+								<input type="text" name="your-name" value="" size="40" placeholder="Tu Correo" />
+								<input type="submit" value="SUBSCRIBETE" class="button button-subcribe" />
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="zerogrid wrapper">
+					Copyright @ IESTP BMM - Designed by <a href="https://demo.facturaciondigital.com.pe">HLOA</a>
+					<ul class="quick-link">
+						<li><a href="#">COMPUTACIÓN E INFORMÁTICA</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+	<!-- carousel -->
+	<script src="owl-carousel/owl.carousel.js"></script>
+    <script>
+    $(document).ready(function() {
+      $("#owl-brand").owlCarousel({
+        autoPlay: 3000,
+        items : 6,
+		itemsDesktop : [1199,4],
+        itemsDesktopSmall : [979,2],
+		navigation: true,
+		navigationText: ['<i class="fa fa-chevron-left fa-5x"></i>', '<i class="fa fa-chevron-right fa-5x"></i>'],
+		pagination: false
+      });
+    });
+    </script>
+</body>
+</html>
